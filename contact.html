@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+*{
+    margin: 0%;
+    padding: 0%;
+}
+        header{
+    height: 70px; 
+}
+body{
+    background-color:rgb(2, 2, 14);
+    overflow-x: hidden;
+}
+.head-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-image: url(https://i.pinimg.com/1200x/38/71/46/3871464ef274bc4e4e8299cfbe7b5e32.jpg);
+background-size: cover;        
+      background-position: center;   
+      background-repeat: no-repeat;
+width: 100%;
+height: 400px;
+ padding: 10px;
+}
+
+.head-logo{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    overflow: hidden;
+    position: absolute;
+    bottom: 614px;
+    left: 14px;
+    img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+.navs{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 650px;
+    left: 1200px;
+}
+.navs ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.navs ul li{
+    margin-right: 20px;
+
+a{
+    color: white;
+    text-decoration: none;
+font-family: 'Roboto', sans-serif;
+transition: color 0.5s ;
+}
+a:hover{
+    color: black;
+}}
+
+.hding{
+    color:rgb(255, 252, 252);
+    text-align: center;
+    position: absolute;
+    left: 620px;
+    font-family: 'Robot',sans-serif;
+}
+.form-size{
+    margin-top: 24px;
+    height: 500px;
+    width: 400px;
+position: absolute;
+left: 900px;
+}
+label{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+      font-size: 12px;
+      color: #fffefe;
+      margin:10px;
+      font-weight: 500;
+
+}
+input{
+    width: 90%;
+      padding: 10px 11px;
+      border-radius: 10px;
+      transition: border-color 0.18s ease, box-shadow 0.18s ease,background-color 0.18s ease;
+      border-color: white;
+}
+input:focus{
+    border-color: #818cf8;
+      box-shadow: 0 0 0 1px rgba(129, 140, 248, 0.7), 0 0 0 7px rgba(129, 140, 248, 0.16);
+      background-color: white;
+}
+button{
+   width: 200px;
+   border-radius: 10px;
+   height: 40px;
+   margin-left: 10px;
+   border-color: white;
+}
+h2{
+    text-align: center;
+}
+.reachouts{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+justify-content: center;
+}
+.reachouts div{
+    color: rgb(0, 0, 0);
+    img{
+        height: 100px;
+    }
+    p,h3{
+        font-family: 'Roboto', sans-serif;
+    }
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="head-container"><h1 class="hding">CONTACT US</h1>
+<div class="head-logo">
+<img src="https://img.freepik.com/free-vector/bird-colorful-gradient-vector-design_343694-2497.jpg?semt=ais_user_personalization&w=740&q=80">
+</div>
+<div class="navs">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        
+    </ul>
+</div></div>
+</header>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<main>
+    <div class="form-size">
+    <h2>Get in Touch</h2>
+<form action="">
+    <label for="name">Name</label>
+    <input type="text" name="name" placeholder="Your Name">
+    <label for="email">Email</label>
+    <input type="text" name="email" placeholder="Email">
+    <label for="subject">Subject</label>
+    <input type="text" name="subject" placeholder="Subject"><br><br>
+    <button type="submit">ENQUIRE</button>
+</form>
+</div>
+<div>
+    <img src="https://i.pinimg.com/1200x/73/cd/56/73cd566a52ee2d66efa6d73f1b3a0f9d.jpg" alt="" style="border-radius: 20px;">
+</div><br>
+<center>
+<div class="reachouts">
+<div>
+    <img src="visit-removebg-preview.png" alt="">
+   <h3>VISIT US</h3><br>
+    <p>Afzalpur Takke <br>
+    Vijayapura-Karnataka <br>
+    586103</p></div>
+<div>
+    <img src="call-removebg-preview.png" alt="">
+   <h3> CALL US</h3><br>
+    <p>+91 8310782244</p></div>
+<div>
+    <img src="mail-removebg-preview.png" alt="">
+   <h3>EMAIL US</h3><br>
+<p>zagirdarbsaeed@gmail.com</p></div>
+</div>
+</main>
+</body>
+</html>

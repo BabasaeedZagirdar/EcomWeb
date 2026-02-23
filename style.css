@@ -1,0 +1,123 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+body{
+     background:radial-gradient(circle at center, #7f5af0, #16161a 55%, #010101 100% );
+     background-size: cover;
+    overflow-x: hidden;
+
+}
+header{
+   
+    height: 70px; 
+   
+
+}
+.head-container{
+    position: fixed;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #4e0799;
+width: 100%;
+height: 70px;
+ padding: 10px;
+}
+
+.head-logo{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    overflow: hidden;
+    img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20%;
+    }
+}
+.navs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navs ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.navs ul li{
+    margin-right: 20px;
+
+a{
+    color: white;
+    text-decoration: none;
+font-family: 'Roboto', sans-serif;
+transition: color 0.5s ;
+}
+a:hover{
+    color: black;
+}}
+.sign{
+    background:black;
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.slider {
+  
+  width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  height: 60%;
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  
+  animation: slide 10s infinite;
+  animation-delay: 2s;
+}
+
+.slides img {
+  width: 800px;
+  height: 600px;
+  margin: 10px;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-1800px); }
+}
+#main-head{
+    display: flex;
+    background: #010101;
+    justify-content: center;
+    color: white;
+    font-family:'Roboto',sans-serif ;
+padding: 10px;
+margin: 20px;
+}
+.container{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3,1fr);
+   border-radius: 20%;
+    
+}
+
+h2{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+.template{
+    background-image: url(https://i.pinimg.com/1200x/38/71/46/3871464ef274bc4e4e8299cfbe7b5e32.jpg);
+    color: white;
+    text-align: center;
+    height: 200px;
+}
